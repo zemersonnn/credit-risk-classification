@@ -18,11 +18,16 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-
+  * Accuracy is 0.99. 
+  * Precision for 0 is 1.00, for 1 is 0.87. 
+  * Recall for 0 is 1.00, for 1 is 0.89. 
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * Accuracy is 0.99. 
+  * Precision is 0.99. 
+  * Recall is 0.99. 
 
 ## Summary
 
@@ -31,3 +36,4 @@ Summarize the results of the machine learning models, and include a recommendati
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
 If you do not recommend any of the models, please justify your reasoning.
+* I recommend the logistic regression model fit with the oversampled data due to its accuracy, precision, and recall scores. 
