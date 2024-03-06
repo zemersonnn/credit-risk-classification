@@ -1,4 +1,4 @@
-# Module 12 Report Template
+# Module 20 Report Template
 
 ## Overview of the Analysis
 
@@ -9,6 +9,8 @@ In this section, describe the analysis you completed for the machine learning mo
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+
+* The purpose of the analysis is to identify the creditworthiness of borrowers. The financial information the data is located on a csv file that is composed of lending data. The "y" variable is set equal to the loan status. The value counts variable counts the distinct values of the resampled labels data. The machine learning process is composed of fitting a logistic regression model by training the data. Then the predictions are saved for the testing data by using the esting feature data and the fitted model. A confustion matrix and classifcation report is made to evaluate the models performance. Logistic regression is a binary outcome predictior that predicts the probability of a binary outcome. 
 
 ## Results
 
